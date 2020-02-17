@@ -58,7 +58,7 @@ function App() {
                 <section>
 
                     { !!posts.length && (
-                        <div id="posts" className="bg-secondary p-3 rounded">
+                        <div id="posts" className="well p-3 rounded">
                             { posts.map((post, index) => <Post key={`post-${index}`} post={post} remove={removePost} />) }
                         </div>
                     )}

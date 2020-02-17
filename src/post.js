@@ -1,12 +1,11 @@
 import React from 'react';
 
 function Post({ post, remove }) {
-    const { id, title, body, tags } = post;
+    const { title, body, tags } = post;
 
     return (
         <article>
             <header>
-                <h3>{id}</h3>
                 <h3>{title}</h3>
             </header>
             <section>
